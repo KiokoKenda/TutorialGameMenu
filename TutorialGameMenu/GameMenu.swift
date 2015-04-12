@@ -46,12 +46,12 @@ class GameMenu: SKScene {
         self.addChild(generalUser)
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         // DEBUG:
         println("GameScene touchesBegan method")
         
-        var touch: UITouch = touches.anyObject() as UITouch
-        var location = touch.locationInNode(self)
+        let touch = touches.first as? UITouch
+        let location = touch!.locationInNode(self)
         var node = self.nodeAtPoint(location)
         
         // If next button is touched, start transition to second scene

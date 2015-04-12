@@ -20,7 +20,7 @@ class GameViewController: UIViewController {
         
         let scene = GameMenu(size: view.bounds.size)
         // scene contiene la scena da usare
-        let skView = view as SKView
+        let skView = view as! SKView
         // dall'apple developer reference:
         // An SKView object is a view that displays Sprite Kit content. 
         // This content is provided by an SKScene object.

@@ -86,14 +86,14 @@ class GameInProgressScene: SKScene {
         if gamePause { self.paused = true }
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         // DEBUG:
         println("GameInProgress touchesBegan method")
         
         // rileviamo il tocco
-        var touch: UITouch = touches.anyObject() as UITouch
+        let touch = touches.first as? UITouch
         // la posizione del tocco
-        var location = touch.locationInNode(self)
+        let location = touch!.locationInNode(self)
         // e l'eventuale bottone alla posizione del tocco
         var node = self.nodeAtPoint(location)
         

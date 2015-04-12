@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63D41A25-9D8A-497F-8F0D-6CF479E1BAD1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TutorialGameMenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D586F2AAAA0398F26D58F655EA4B99F908A2EBAA</key>
+		<string>github.com:KiokoKenda/TutorialGameMenu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TutorialGameMenu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D586F2AAAA0398F26D58F655EA4B99F908A2EBAA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:KiokoKenda/TutorialGameMenu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D586F2AAAA0398F26D58F655EA4B99F908A2EBAA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D586F2AAAA0398F26D58F655EA4B99F908A2EBAA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TutorialGameMenu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
